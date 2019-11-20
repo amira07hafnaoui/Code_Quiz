@@ -20,6 +20,14 @@ How do you deliver this? Here are some guidelines:
 
 
 ### Screenshots
+![image](https://user-images.githubusercontent.com/55209230/69204556-d5a38d00-0b0c-11ea-95ff-62226417dcc5.png)
+
+![image](https://user-images.githubusercontent.com/55209230/69204614-08e61c00-0b0d-11ea-966f-032a56ef94aa.png)
+
+![image](https://user-images.githubusercontent.com/55209230/69204668-3206ac80-0b0d-11ea-8a1e-949d73d323f4.png)
+![image](https://user-images.githubusercontent.com/55209230/69204709-5793b600-0b0d-11ea-8da3-03dd355bc9fc.png)
+![image](https://user-images.githubusercontent.com/55209230/69204748-73975780-0b0d-11ea-81b5-ba38140c8eca.png)
+![image](https://user-images.githubusercontent.com/55209230/69204791-9164bc80-0b0d-11ea-9a63-9c7936edfdfa.png)
 
 ### licence
 MIT.
