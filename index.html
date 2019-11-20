@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Code_Quiz</title>
+
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <!--Custom CSS-->
+    <link rel="stylesheet" href="assets/css/code.css">
+</head>
+<body>
+<div class="container d-flex justify-content-between mt-3">
+    <a  id ="score-button" class="score" href="highscore.html" role="button"> View highscores </a>
+    <div class="time">Time:0</div>   
+</div>
+<div class="container mt-3">
+    <div class="d-flex flex-column justify-content-center align-items-center">
+        <h1>Coding Quiz Challenge </h1>
+        <p  class="text-center">Try to answer the following code questions within the time limit.</p>
+        <p class="text-center"> Keep in mind that inncorect answers will penalize your score time </p>
+        <p class="text-center">by 15 seconds.</p>
+        <a  id ="start-button" class="button" href="quiz.html" role="button">Start quiz</a>
+    </div>
+<script src="assets/js/question.js "></script>
+<script src="assets/js/quiz.js"></script>
+
+</body>
+</html>

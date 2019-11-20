@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coding Quiz PLay</title>
+
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <!--Custom CSS-->
+    <link rel="stylesheet" href="assets/css/code.css">
+</head>
+<body>
+<div class="container d-flex justify-content-between mt-3">
+    <a  id ="score-button" class="score" href="highscore.html" role="button"> View highscores </a>
+    <div class="time" id="timejs"> </div>   
+</div>
+<div class="container mb-3 mt-3" id="quizContainer">
+  <div  class="d-flex flex-column justify-content-center align-items-center">
+    <div class="title">Welcome To Coding Quiz</div>
+      <div id="question" class="question">1. The first mechanical computer designed by Charles Babbage was called ?</div>
+        <label class="option"><input type="radio" name="option" value="1" > <span id="opt1">Abacus</span></label>
+        <label class="option"><input type="radio" name="option" value="2"> <span id="opt2" >Analytical Engine</span></label>
+        <label class="option"><input type="radio" name="option" value="3"> <span id="opt3" >Calculator</span></label>
+        <label class="option"><input type="radio" name="option" value="4" > <span id="opt4" >Processor</span></label>
+  </div>
+  <hr >
+  <div  class="d-flex ">
+    <div class="answer col-8"></div>
+    <button class=" quiz-btn mr-2" onclick="result()" >Result</button>
+    <button id="nextButton" class=" quiz-btn " onclick="loadNextQuestion()" >Next Question</button>
+  </div>
+  </div>
+<script src="assets/js/question.js "></script>
+<script src="assets/js/quiz.js"></script>
+</body>
+</html>

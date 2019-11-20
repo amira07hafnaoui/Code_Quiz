@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Coding Quiz PLay</title>
+
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <!--Custom CSS-->
+    <link rel="stylesheet" href="assets/css/code.css">
+</head>
+<body>
+<div class="container mt-3">
+    <div class="d-flex flex-column justify-content-center align-items-center">
+        <h1>All Done!</h1>
+        <div class="fscore">Your final score is <span id='fscorejs'></span></div>
+      </div>
+      <form class="form-inline justify-content-center mb-3" >
+          <label for="email" class="mr-2">Enter your initials</label>
+          <input type="text" class="form-control mr-2" id="initials">
+          <a class="btn" href="highscore.html" role="button" id ="submit-button">Submit</a>
+      </form>
+  </div>
+
+<script src="assets/js/question.js "></script>
+<script src="assets/js/quiz.js"></script>
+<script language="JavaScript">
+     document.querySelector('#fscorejs').textContent = window.localStorage.getItem('score');
+    document.querySelector('#submit-button').addEventListener('click', function(s) {
+        s.preventDefault();
+        window.localStorage.setItem('ini', document.querySelector('input').value);
+        window.location.href = 'highscore.html';
+    });
+</script>
+  </body>
+      
+  </html>
