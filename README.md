@@ -1,3 +1,4 @@
+permalink: /index.html
 # Code_Quiz
 As a coding bootcamp student I want to take a timed quiz on JavaScript fundamentals that stores high scores
 so that I can gauge my progress compared to my peers.
@@ -17,6 +18,8 @@ How do you deliver this? Here are some guidelines:
 * Your application should also be responsive, ensuring that it adapts to multiple screen sizes.
 
 * Refer to the animated GIF below for a demonstration of the application functionality.
+
+ 
 
 
 ### Screenshots
