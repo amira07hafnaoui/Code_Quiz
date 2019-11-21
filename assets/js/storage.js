@@ -22,7 +22,7 @@ function preload () { // load sort and save
     ul.innerHTML = '';
     let scores = JSON.parse(window.localStorage.getItem('scores'));
     if (scores !== null) {
-      var sortedScores = sort(scores);
+      let sortedScores = sort(scores);
       for (let key in sortedScores) {
         let li = document.createElement('li');
         li.classList.add('list-group-item');
@@ -36,15 +36,15 @@ function preload () { // load sort and save
     if (obj === null) {
       return obj ;
     }
-    var scoreArray = [];
-    var newArray = [];
+   let scoreArray = [];
+   let newArray = [];
     obj.forEach(function (element) {
 
       scoreArray.push(element.value)
     })
     scoreArray.sort(function (a, b) { return b - a })
     scoreArray.forEach(function (element) {
-      for (var key in obj) {
+      for (let key in obj) {
         if (element === obj[key].value) {
           newArray.push(obj[key]);
         }
